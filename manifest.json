@@ -1,0 +1,51 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "",
+        "name": "ts-dev-template",
+        "uuid": "051c953d-18a2-4fe3-bdd8-fec1725e03e1",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 130]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "590eee79-3995-4d54-8952-9f5c05d3f091",
+            "version": [1, 0, 0]
+        },
+        {
+            "description": "",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "377b3072-0825-4db5-9161-6f05dfb71dd5",
+            "version": [1, 0, 0],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "capabilities": [
+        "script_eval"
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/server-gametest",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/server-graphcis",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/debug-utilities",
+            "version": "beta"
+        }
+    ]
+}
