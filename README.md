@@ -13,6 +13,7 @@ powershell -c "irm bun.sh/install.ps1 | iex"
 
 2. リポジトリのセットアップ
 
+このリポジトリをcloneしたあと
 ```bash
 bun init
 
