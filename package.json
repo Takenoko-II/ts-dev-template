@@ -10,7 +10,8 @@
     "dependencies": {
         "@minecraft/vanilla-data": "^1.21.130"
     },
+    "type": "module",
     "scripts": {
-        "build": "tsc --noEmit && bun build.mts"
+        "build": "tsc --noEmit && bun build.ts"
     }
 }

@@ -2,8 +2,8 @@
     "compilerOptions": {
         "allowJs": false,
         "checkJs": false,
-        "module": "esnext",
-        "target": "esnext",
+        "module": "es2022",
+        "target": "es2024",
         "moduleResolution": "bundler",
         "esModuleInterop": true,
         "declaration": true,
@@ -31,14 +31,13 @@
             ],
             "@utils/*": [
                 "./src/utils/*"
+            ],
+            "@ui-wrapper": [
+                "./src/libs/UI-2.0.ts"
             ]
         }
     },
     "include": [
         "src"
-    ],
-    "exclude": [
-        "src/utils",
-        "src/libs"
     ]
 }
